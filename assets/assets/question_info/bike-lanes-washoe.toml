@@ -1,0 +1,21 @@
+questionText = 'How many bike lanes and shared use paths are in the area or within 1/4 mile radius?'
+useUrl = 'Use RTC Washoe data'
+url = 'https://regional-transportation-commission-washoe-open-data-rtcwashoe.hub.arcgis.com/apps/4f1ba7ad3d874a8595d1aa35479b49c3/explore'
+answers = [{ text = '0', points = 0.0 }, { text = '1 or more', points = 4.0 }]
+answerLeadingHeader = 'Number:'
+domain = 'Connectivity'
+autoFillEnabled = false
+buttonText = 'Bike Lanes'
+instructionsMarkdown = '''
+* Click on the RTC data link for Washoe [here](https://regional-transportation-commission-washoe-open-data-rtcwashoe.hub.arcgis.com/apps/4f1ba7ad3d874a8595d1aa35479b49c3/explore).
+* In the search box above the map on the top center of the screen, enter the address for the project area
+    * Click on the small box that appears under the search result bar of the project area to save the selected address
+* To measure within a ¼ mile radius of the project area, hover over the point/line on the map and click ‘Filter to this point’
+* Zoom in or out as needed until the map shows approximately ¼ mile (0.25 miles) in every direction from the project area.
+* Select “Miles” as the unit of distance, and set the distance to 0.25.
+* Click on any blue lines within the ¼-mile radius.
+* Under the “Type” category, verify that the selected lanes are existing lanes, and count all that fall within the area.
+* Select the answer below that corresponds to the number of bicycle lanes and/or shared use paths located within 1/4 mile of the project area
+'''
+videoId = '18dzv9QJLKaLhOw8uLla7gHzzqJw2k9xc'
+hint = ''

@@ -1,0 +1,24 @@
+state = 'Nevada'
+jurisdiction = 'City of Las Vegas'
+questionInfoIds = [
+  [
+    'underserved',
+    'biking-rate',
+    'walking-rate',
+    'pedestrian-crash',
+    'bicycle-crash',
+    'land-use-diversity',
+    'hu-jpa',
+    'schools-las-vegas',
+    'public-parks-las-vegas',
+    'bus-stops-rtc',
+    'bike-lanes-rtc',
+  ],
+  [
+    'walkability',
+    'comfort-level',
+    'maps-mini',
+    'shade',
+  ],
+]
+recommendationsInfoId = 'nv-recommendations-info'

@@ -1,0 +1,29 @@
+
+questionText = 'How many public parks are in the project area or within ½ mile radius?'
+useUrl = 'Use Clark County data'
+url = 'https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=7b483a11c0b3489d8ce7601081872f99'
+answers = [
+  { text = '0', points = 0.0 },
+  { text = '1', points = 1.0 },
+  { text = '>1', points = 2.0 },
+]
+answerLeadingHeader = 'Number:'
+domain = 'Connectivity'
+autoFillEnabled = true
+buttonText = 'Parks'
+instructionsMarkdown = '''
+* Click on the Clark County Recreation data link, [available here](https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=7b483a11c0b3489d8ce7601081872f99).
+* Click on the magnifying glass icon located on the lower right of the map.
+* Enter the address of the project area into the search bar that appears, then press enter.
+* Click on the sideways carrot button (>) to the left of  “Recreation” on the left side information bar, and ensure that only the following layers are visible: “Las Vegas Parks,” “Clark County Parks,” “Boulder City Parks,” “Henderson Parks,” “Mesquite Parks,” and “North Las Vegas Parks.” 
+  * To hide a layer, click the eye icon next to the three dots for that particular layer. An eye icon with a line through it indicates a hidden layer.
+* Click on “Legend” on the left-hand sidebar to reveal how parks appear on the map.
+* Zoom in and out (as needed) until the map displays about ½ mile in each direction from the project area.
+* To measure distance, click the wrench icon (Map tools) on the right-side toolbar, then click “Measurement.”
+  * Click on a point in the project area that is closest to the park and then drag the measurement line to the nearest part of the park to reveal the distance.
+  * Select “miles” on the drop-down menu for “unit.”
+  * Continue this process until it is clear if there are 0, 1, or >1 parks within ½ mile.
+* Select the answer below that corresponds to the number of parks located within ½ mile of the project area.
+'''
+videoId = '1XGLuqsRHqqnQussFQD1z92VpkI9KJsav'
+hint = ''

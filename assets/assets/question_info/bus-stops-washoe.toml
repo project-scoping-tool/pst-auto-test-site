@@ -1,0 +1,23 @@
+questionText = 'What is the level of bus service within a quarter mile of the project area?'
+useUrl = 'Use the PST Bus Stop Information map,'
+url = 'https://experience.arcgis.com/experience/ae620e958419424381e4855b2d3adb26?draft=true'
+answers = [
+  { text = '0-.75', points = 0.0 },
+  { text = '0.76-1.5', points = 1.0 },
+  { text = '1.6-2', points = 2.0 }
+  ]
+answerLeadingHeader = 'Number:'
+domain = 'Connectivity'
+autoFillEnabled = false
+buttonText = 'Bus Stops'
+instructionsMarkdown = '''
+* Click the link for the PST Bus Stop Information map, available [here](https://experience.arcgis.com/experience/ae620e958419424381e4855b2d3adb26?draft=true).
+* In the search box on the top left of the map, enter the address for the project area and click on the magnifying glass or press enter.
+* Zoom in and out (as needed) using the (+) and (-) buttons on the top left of the map.
+* Use the “Draw Area” button on the right sidebar to draw the shape of the project area.
+  * Left click at a point on the map to begin drawing. Left click again at the end of each segment. Double-click to complete the drawing. (Note: This may be different for Mac and PC users.)
+  * The bus stop accessibility score will appear in a blue box on the right toolbar.
+* Enter the answer below that corresponds to the level of bus service.
+'''
+videoId = '1uQwCcnK0j_lRueNOzWFyRFaClod_NbI5'
+hint = ''

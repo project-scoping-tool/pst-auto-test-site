@@ -1,0 +1,28 @@
+
+questionText = 'What is the pedestrian crash density in the area? (pedestrian crashes/sq. mile)'
+useUrl = 'Use pedestrian crash data map'
+url = 'https://experience.arcgis.com/experience/e3fc453ef32d41819135f2b0d6e5c78d'
+answers = [
+  { text = '0-4.61', points = 1.0 },
+  { text = '>4.61-15.08', points = 2.0 },
+  { text = '>15.08-30.78', points = 3.0 },
+  { text = '>30.78-50.80', points = 4.0 },
+  { text = '>50.80-77.6', points = 5.0 },
+]
+answerLeadingHeader = 'Crashes:'
+domain = 'Crash'
+autoFillEnabled = true
+buttonText = 'Pedestrian Crash'
+instructionsMarkdown = '''
+* Click on the link for Nevada Pedestrian and Bicyclist Crash Data 2019-2024, available [here](https://experience.arcgis.com/experience/e3fc453ef32d41819135f2b0d6e5c78d).
+* Enter an address within the project area into the search bar on the left top corner of the map and click on the magnifying glass.
+* To properly view the project area, click the minus (–) button located in the top-left corner of the map.
+* Pedestrian crashes are represented by blue dots on the map. The legend should be visible by scrolling through the sidebar on the bottom right corner.
+* Click the “POLYLINE” tool option from the right sidebar to draw a line along the project's exterior perimeter. Left click at a point on the map to begin drawing. Left click again at the end of each segment. Double-click to complete the drawing. (Note: This may be different for Mac and PC users.)
+* Ensure “0.25” appears in the first box and “miles” appears in the second box on the right sidebar.
+* A blue shape with a 0.25-mile radius will appear around the address. You may need to zoom out to view it fully. 
+* The pedestrian crash density should automatically populate on the right-side menu.
+* Return to the PST to select the appropriate range of values within which your density value falls.
+'''
+videoId = '1TVujiGOe-Abxq-r2O_lI90Qn9ZmNNR3L'
+hint = ''
